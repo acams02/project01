@@ -1,0 +1,15 @@
+package bangunDatar;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        float sisi;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Lebar Sisi: ");
+        sisi = keyboard.nextFloat();
+        Persegi mPersegi = new Persegi();
+        mPersegi.sisi = sisi;
+        mPersegi.luas();
+        mPersegi.keliling();
+
+    }
+}
